@@ -1,0 +1,41 @@
+{
+	"AI Primer - Vibe Coding": {
+	  "scope": "",
+	  "prefix": "primer", // Trigger word
+	  "body": [
+		"::Scope and Context Primer",
+		"Objective: $2",
+		"Prioritize modularity, compatibility, functionality, and accepted standards over prompt strictness",
+		"Abstract my request into the perspective of a professional programmer. Use the abstraction to guide focus and suggest improvements",
+		"Keep responses concise yet comprehensive",
+		"",
+		"::Specific Inclusions",
+		"Implement robust error handling for path operations (e.g., try-catch or equivalent) with descriptive error messages",
+		"Include robust error logging using standard libraries (e.g., logging in Python, console/winston in Node.js)",
+		"Inline question/responses for clarification before starting",
+		"Aggressively suggest better ways to achieve the objective, guided by the abstraction, within the scope and inclusions",
+		"Avoid using characters that require escaping unless requested or required",
+		"Expand the idea iteratively into 2nd, 3rd, and 4th orders of on how to improve the function, execution, or utlity of the request",
+		"$3",
+		"::Specific Exclusions",
+		"Experimental, developmental, unstable, unverified, erroneous, or amateur code",
+		"Relative paths",
+		"$4",
+		"",
+		"::Output Styling",
+		"Console errors and failures in red (e.g., ANSI \\033[31m or equivalent)",
+		"Warnings in yellow (e.g., ANSI \\033[33m or equivalent)",
+		"Success messages in green (e.g., ANSI \\033[32m or equivalent)",
+		"Ordinary text in cyan (e.g., ANSI \\033[36m or equivalent)",
+		"Output full, complete code with no truncation",
+		"$5",
+		"",
+		"::Settings",
+		"Ensure path utility functions are modular and reusable across the project",
+		"Prioritize platform neutral languages, filetypes, and nodes that can be reused across operating systems, such as Python and JSON"
+		"$6",
+		"$0"
+	  ],
+	  "description": "Creates a template to primer an AI prompt for coding rules, enforcing relative paths, modularity, and professional standards"
+	}
+}

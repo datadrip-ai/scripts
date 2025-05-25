@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\ExtractLastFrame]
+@="COMMAND NAME"
+"IconName"="shell32.dll,44"
+
+[HKEY_CLASSES_ROOT\*\shell\ExtractLastFrame\command]
+@="\"PATH\\TO\\FILE\" \"%1\""
